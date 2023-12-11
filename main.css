@@ -79,6 +79,7 @@ p.second_text_header {
 	p.second_text_header {
 		font-size: 30px;
 		line-height: 40px;
+		width: 820px !important;
 	}
 }
 @media screen and (max-width: 920px) {
@@ -114,7 +115,6 @@ ul.items_header li {
 	line-height: calc( (100vw - 320px)/(1440 - 320) * (22 - 16) + 16px);
 	width: 220px;
 	animation-delay: 2.6s !important;
-	margin-bottom: 60px !important;
 }
 @media screen and (min-width: 1440px) {
 	ul.items_header li {
@@ -127,6 +127,7 @@ ul.items_header {
 	gap: 0 60px;
 	padding-left: 5vw;
 	padding-top: 60px;
+	margin-bottom: 60px !important;
 }
 ul.items_header li img.icon_item_header {
 /*	width: 30px;*/
