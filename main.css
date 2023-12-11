@@ -26,11 +26,7 @@
 		padding-top: 60px;
 	}
 }
-@media screen and (max-width: 768px) {
-	#wrapper_header {
-		padding-top: 30px;
-	}
-}
+
 /*#wrapper_header:after {
 	content: "";
 	width: 100%;
@@ -107,12 +103,16 @@ img.logo_image_header {
 	margin-bottom: 20px;
 	animation-delay: 0.6s !important;
 }
+@media screen and (max-width: 768px) {
+	#wrapper_header img.logo_image_header {
+		margin-top: 60px;
+	}
+}
 @media screen and (max-width: 360px) {
 	img.logo_image_header {
 		width: 200px;
 	}
 }
-
 
 /* items values */
 ul.items_header li {
