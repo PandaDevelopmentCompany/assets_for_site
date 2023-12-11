@@ -20,6 +20,7 @@
 	position: relative;
 	overflow: hidden;
 	box-shadow: 5px 5px 5px olive;
+	padding-top: 60px;
 }
 /*#wrapper_header:after {
 	content: "";
