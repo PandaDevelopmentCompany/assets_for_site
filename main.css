@@ -193,7 +193,7 @@ ul.items_header li img.icon_item_header {
 }
 
 
-.animated {
+.wrapper_header .animated {
 	animation-duration: 1.2s !important;
 }
 
