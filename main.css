@@ -190,6 +190,12 @@ ul.items_header li img.icon_item_header {
 		right: 5%;
 	}
 }
+@media screen and (max-width: 400px) {
+	.wrapper_logo_background {
+		top: 470px;
+		right: 10%;
+	}
+}
 .left_side_logo {
 	display: flex;
 }
