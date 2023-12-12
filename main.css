@@ -125,6 +125,8 @@ ul.items_header li {
 	line-height: calc( (100vw - 320px)/(1440 - 320) * (22 - 16) + 16px);
 	width: 220px;
 	animation-delay: 2.6s !important;
+	position: relative;
+	z-index: 2;
 }
 @media screen and (min-width: 1440px) {
 	ul.items_header li {
