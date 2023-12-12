@@ -184,6 +184,12 @@ ul.items_header li img.icon_item_header {
 	right: 10%;
 /*	right: 250px;*/
 }
+@media screen and (max-width: 560px) {
+	.wrapper_logo_background {
+		top: 470px;
+		right: 5%;
+	}
+}
 .left_side_logo {
 	display: flex;
 }
